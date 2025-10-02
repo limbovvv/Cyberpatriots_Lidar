@@ -1,0 +1,40 @@
+# Python cache and artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.coverage
+*.log
+
+# Virtual environments
+.venv/
+.env
+.env.*
+
+# Build outputs
+build/
+dist/
+datasets/
+data/*
+
+# Frontend dependencies and build cache
+app/frontend/node_modules/
+app/frontend/dist/
+app/frontend/.vite/
+app/frontend/.eslintcache
+app/frontend/.cache/
+
+# Editor and OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+
+data/app.db
